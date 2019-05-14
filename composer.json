@@ -1,0 +1,40 @@
+{
+    "name": "MartinMulder/internetnl-api-laravel",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Martin Mulder",
+            "email": "martin@serioussecurity.nl"
+        }
+    ],
+    "repositories": [
+	    {
+		    "type": "vcs",
+		    "url": "https://github.com/MartinMulder/InternetNL-batchAPI-php"
+	    }
+    ],
+    "require": {
+	    "php": ">=7.0",
+	    "martinmulder/internetnl-batchapi-php": "master-dev"
+    },
+    "autoload": {
+	    "psr-4": {
+		    "MartinMulder\\InternetNL\\": "src/"
+	    }
+    },
+    "autoload-dev": {
+	    "psr-4": {
+		    "MartinMulder\\InternetNL\\Tests\\": "tests/"
+	    }
+    },
+    "extra": {
+	    "laravel": {
+		    "providers": [
+			    "MartinMulder\\InternetNL\\InternetnlServiceProvider"
+		    ],
+		    "aliasses": {
+			    "InternetNL": "InternetNL\\Laravel\\Facades\\InternetNL"
+		    }
+	    }
+    }
+}
