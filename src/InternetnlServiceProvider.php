@@ -1,5 +1,6 @@
 <?php
 namespace Internetnl\Laravel;
+
 use Illuminate\Container\Container;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Config;
@@ -49,7 +50,7 @@ class InternetnlServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return ['internetnl'];
+        return ['Internetnl'];
     }
     /**
      * Returns a new InternetNL Api instance.
@@ -59,6 +60,6 @@ class InternetnlServiceProvider extends ServiceProvider
     protected function newInternetNL()
     {
 	\Doctrine\Common\Annotations\AnnotationRegistry::registerLoader('class_exists');
-        return new MartinMulder\InternetNL\Api(Config::get('internetnl.connection.username'), Config::get('internetnl.connection.password'));
+        return new \MartinMulder\InternetNL\Api(Config::get('internetnl.connection.username'), Config::get('internetnl.connection.password'));
     }
 }

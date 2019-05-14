@@ -19,22 +19,26 @@
     },
     "autoload": {
 	    "psr-4": {
-		    "MartinMulder\\InternetNL\\": "src/"
+		    "InternetNL\\Laravel\\": "src/"
 	    }
     },
     "autoload-dev": {
 	    "psr-4": {
-		    "MartinMulder\\InternetNL\\Tests\\": "tests/"
+		    "InternetNL\\Laravel\\Tests\\": "tests/"
 	    }
     },
     "extra": {
 	    "laravel": {
 		    "providers": [
-			    "MartinMulder\\InternetNL\\InternetnlServiceProvider"
+			    "InternetNL\\Laravel\\InternetnlServiceProvider"
 		    ],
 		    "aliasses": {
 			    "InternetNL": "InternetNL\\Laravel\\Facades\\InternetNL"
 		    }
 	    }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.1",
+        "orchestra/testbench": "^3.8"
     }
 }
