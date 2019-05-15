@@ -7,15 +7,9 @@
             "email": "martin@serioussecurity.nl"
         }
     ],
-    "repositories": [
-	    {
-		    "type": "vcs",
-		    "url": "https://github.com/MartinMulder/InternetNL-batchAPI-php"
-	    }
-    ],
     "require": {
 	    "php": ">=7.0",
-	    "martinmulder/internetnl-batchapi-php": "dev-master"
+	    "martinmulder/internetnl-batchapi-php": ">=0.1.0"
     },
     "autoload": {
 	    "psr-4": {

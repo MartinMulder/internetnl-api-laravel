@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6c44d7ecb239c5d68e86e968fa1163c",
+    "content-hash": "17f838a28ebd46e594200c160ff9e213",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -290,7 +290,7 @@
         },
         {
             "name": "martinmulder/internetnl-batchapi-php",
-            "version": "dev-master",
+            "version": "v0.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MartinMulder/InternetNL-batchAPI-php.git",
@@ -315,11 +315,7 @@
                     "MartinMulder\\InternetNL\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "MartinMulder\\InternetNL\\Test\\": "tests"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -334,10 +330,6 @@
             "keywords": [
                 "internetnl"
             ],
-            "support": {
-                "source": "https://github.com/MartinMulder/InternetNL-batchAPI-php/tree/master",
-                "issues": "https://github.com/MartinMulder/InternetNL-batchAPI-php/issues"
-            },
             "time": "2019-05-14T08:20:53+00:00"
         },
         {
@@ -4299,9 +4291,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "martinmulder/internetnl-batchapi-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
