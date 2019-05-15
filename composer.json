@@ -1,5 +1,5 @@
 {
-    "name": "MartinMulder/internetnl-api-laravel",
+    "name": "martinmulder/internetnl-api-laravel",
     "type": "project",
     "authors": [
         {
@@ -15,7 +15,7 @@
     ],
     "require": {
 	    "php": ">=7.0",
-	    "martinmulder/internetnl-batchapi-php": "master-dev"
+	    "martinmulder/internetnl-batchapi-php": "dev-master"
     },
     "autoload": {
 	    "psr-4": {
